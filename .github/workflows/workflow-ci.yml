@@ -19,4 +19,5 @@ jobs:
       with:
         node-version: 18.
     - run: npm install
+    - run: npm cache clean --force
     - run: node server.js
